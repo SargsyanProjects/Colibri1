@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Colibri1.iml" filepath="$PROJECT_DIR$/.idea/Colibri1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EduConnect/EduConnect.iml" filepath="$PROJECT_DIR$/EduConnect/EduConnect.iml" />
     </modules>
   </component>
 </project>
