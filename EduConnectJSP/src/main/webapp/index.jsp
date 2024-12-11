@@ -235,7 +235,7 @@
                 <li class="nav-item"><a class="nav-link" href="#features">Функции</a></li>
                 <li class="nav-item"><a class="nav-link" href="#testimonials">Отзывы</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Контакты</a></li>
-                <li class="nav-item"><a class="btn btn-outline-light" href="/pages/moderatorLogin.jsp">Авторизация</a></li>
+                <li class="nav-item"><a class="btn btn-outline-light" href="pages/login-page.html">Авторизация</a></li>
             </ul>
         </div>
     </div>
