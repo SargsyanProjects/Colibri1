@@ -1,7 +1,6 @@
 package ru.educonnect;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
-import jdk.internal.icu.text.NormalizerBase;
+
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -23,12 +22,10 @@ public class ModeratorDAO {
 
     public void checkModerators(String username, String password) throws SQLException, ClassNotFoundException {
         Statement statement = ConnectDB.connect().createStatement();
-        ResultSet resultSet = statement.executeQuery("select * from moderators where username= '" + username + "' and password = '" + password + "'");
+        ResultSet resultSet = statement.executeQuery("select * from moderator where username= '" + username + "' and password = '" + password + "'");
         while(resultSet.next()) {
             moderators.add(new Moderator(resultSet.getInt(1), resultSet.getString(2), resultSet.getString(3)));
         }
-
-
     }
 
 }
