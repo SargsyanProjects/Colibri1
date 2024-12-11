@@ -28,10 +28,10 @@
     if(!moderatorDAO.getModerators().isEmpty()) {
         response.sendRedirect("moderator-main-page.html");
     }
-    if(!teacherDAO.getCheckedTeachers().isEmpty()){
+    else if(!teacherDAO.getCheckedTeachers().isEmpty()){
         response.sendRedirect("teacher-main-page.html");
     }
-    if(!studentDAO.getCheckedStudents().isEmpty()){
+    else if(!studentDAO.getCheckedStudents().isEmpty()){
         response.sendRedirect("student-main-page.html");
     }
     else{
