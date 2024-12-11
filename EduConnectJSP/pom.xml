@@ -28,6 +28,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>JSPCRUD</finalName>
+    <finalName>Colibri1</finalName>
   </build>
 </project>
